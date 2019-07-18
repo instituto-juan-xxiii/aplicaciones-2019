@@ -1,0 +1,66 @@
+<!-- Editor: Visual Studio Code -->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Evaluación 18/07</title>
+
+        <!-- Bootstrap & estilos -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+
+    <body class="centrado">
+        <div class="container-fluid">
+       
+        <form method="post" action="formulario.php">
+            <table class="table table-bordered table-dark">
+                <caption>Formulario en formato de tabla</caption>
+                <thead>
+                    <tr>
+                        <th scope="col" colspan="5" id="titulo">Evaluación de Laboratorio de Sistemas Operativos</th>
+                    </tr>
+                    <tr>
+                        <th scope="col" colspan="5" style="font-size:150%;">Formulario de contacto</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><u>Nombre</u>: *</td>
+                        <td><input type="text" name="nombres" placeholder="Sus nombres..." required> </td>
+                        <td><u>Apellido</u>: *</td>
+                        <td><input type="text" name="apellidos" placeholder="Sus apellidos..." required> </td>
+                        <td rowspan="5">
+                            <img src="img/publicidad.PNG" alt="publicity by google ads" width="100">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><u>D.N.I.</u>: *</td>
+                        <td><input type="number" placeholder="Su documento nacional de identidad..." required></td>
+                        <td><u>Teléfono</u>:</td>
+                        <td><input type="tel" placeholder="Su número de teléfono..." pattern="[\+]\d{2}[\(]\d{2}[\)]\d{4}[\-]\d{4}" minlength="16" maxlength="20"></td>
+                    </tr>
+                    <tr>
+                        <td><u>Email</u>:</td>
+                        <td colspan="3"><input type="text" placeholder="Su correo electrónico, por ejemplo email@ejemplo.com..." pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4"><u>Comentarios</u>:</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <textarea rows="5" cols="144" name="comentarios" placeholder="Aquí ingrese sus comentarios..."></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="5"><input type="button" value="Submit" class="btn btn-primary"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+
+        </div>
+    </body>
+</html>
