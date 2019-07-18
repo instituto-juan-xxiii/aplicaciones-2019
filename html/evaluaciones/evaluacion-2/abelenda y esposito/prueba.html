@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="utf-8">
+<head>
+  <title> Formulario SO </title>
+  <link type="text/css" href="datos.css">
+</head>
+<body>
+  <form>
+  <table style="width:75%" border=2>
+    <tr>
+      <td colspan="3">
+        <h1> Formulario SO</h1>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        <h2> Formulario de contacto</h2>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Nombre(*): <input type="text" name="Nombre(*):" required>
+      </td>
+      <td>
+        Apellido(*): <input type="text" name="Apellido(*):" required>
+      </td>
+      <td rowspan= 5><img src="ops.png" width=250px height=450px ></td>
+    </tr>
+    <tr>
+        <td>DNI(*):<input type="text" name="DNI(*):" placeholder="****" required></td>
+        <td>Teléfono:<input type="text" name="Telefono(*):" placeholder="+54(11)1234-5678" pattern="[\+]\d{2}[\(]\d{2}[\)]\d{4}[\-]\d{4}" required></td>
+    </tr>
+    <tr>
+      <td colspan="2">E-mail:<input type="text" name="E-Mail:" placeholder="hola.profe@ejemplo.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"></td>
+    </tr>
+    <tr>
+      <td colspan="2">Comentarios</td>
+    </tr>
+    <tr>
+      <td colspan="2"><textarea cols="90" rows="6" input type="text" name="Comentarios" placeholder="Si quiere puede dejar un comentario"></textarea></td>
+    </tr>
+    <tr>
+      <td colspan="3"> <input type="submit" value="Enviar"></td>
+    <tr>
+</table>
+</form>
+</body>
+</html>
