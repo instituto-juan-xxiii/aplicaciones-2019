@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang=es>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+		<title>Lab. Aplicaciones</title>
+		<style type="text/css">
+			input { width: 100% }   
+			.titulo { text-align: center}
+			.rojo { color: #ff0000 }
+		</style>
+	</head>
+	<body>
+		<form method="get">
+			<table border=1 background="fondo.jpg">
+				<tr>
+					<td colspan=5 class="titulo rojo"><b>Evaluacion de Aplicaciones</b></td>
+				</tr>
+				<tr>
+					<td colspan=5 class="titulo rojo"><b>Formulario de contacto</b></td>
+				</tr>
+				<tr>
+					<td><label><b>Nombre:</b></label>
+</td>
+					<td><input type="text" name="nombre" autocomplete="off" required></td>
+					<td><label><b>Apellido</b></label>
+</td>
+					<td><input type="text" name="apellido" autocomplete="off" required></td>
+					<td rowspan= 5><img src="info2.jpg" width=150px height=200px ></td>
+				</tr>
+				<tr>
+					<td><label><b>DNI:</b></label></td>
+					<td><input type="password" name="dni" autocomplete="off" required></td>
+					<td><label><b>Telefono:</b></label></td>
+					<td><input type="text" name="telefono" placeholder="+54(11)1234-5678" pattern="\+[0-9]{1,3}-[0-9]{1,3}-[0-9]{4}-[0-9]{4}$"></td>
+				</tr>
+				<tr>
+					<td><label><b>E-Mail:</b></label></td>
+					<td colspan=3><input type="text" name="mail" placeholder="usuario@ejemplo.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" >
+</td>
+				</tr>
+				<tr>
+					<td colspan=4 class="titulo"><label><b>Comentarios:</b></label></td>
+				</tr>
+				<tr>
+					<td colspan= 4><textarea cols="80" rows="6" name="comentarios" required="" autocomplete="off"></textarea></td>
+				</tr>
+				<tr>
+					<td>   </td>
+					<td> <input type="submit"></td>
+				</tr>
+				
+			</table>
+		</form>
+	</body>
+</html>
