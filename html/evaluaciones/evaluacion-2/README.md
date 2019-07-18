@@ -13,3 +13,4 @@ Desarrolle una página HTML que genere un formulario dentro de una tabla respeta
 
 ## Entrega
 * Generar un pull request a este directorio indicando claramente apellido de los alumnos.
+* No envíe el PR antes del horario de entrega
