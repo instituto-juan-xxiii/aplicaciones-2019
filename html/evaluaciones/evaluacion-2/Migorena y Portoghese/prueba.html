@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+<form action="/action_page.php">
+<table align="center" width="700" border="void" cellpadding="5">
+<tr>
+<th colspan="5" align="center">Evaluación SO</th>
+</tr>
+<th colspan="5" align="center">Formulario</th>
+</tr>
+<tr>
+    <td>Nombre (*)</td>
+    <td><input type="text" name="firstname" value="" placeholder="Nombre entre 10 y 20 caract." pattern="/S{10,20}"></td>
+    <td>Apellido (*)</td>
+    <td><input type="text" name="lastname" value="" placeholder="Nombre entre 10 y 20 caract." pattern="/S{10,20}"></td>
+    <th rowspan="6"> <img src="miley.jpg" alt="Banner" style="width:250px;height:400px;"> </th>
+  </tr>
+<tr>
+    <td>DNI (*)</td>
+    <td><input type="text" name="DNI" value="" placeholder="********" pattern="/S{8}"</td>
+    <td>Teléfono</td>
+    <td><input type="text" name="Teléfono" value="" placeholder="(+54)1163626541" pattern="[\+]\d{2}[\(]\d{2}[\)]\d{4}[\-]\d{4}"</td>
+</tr>
+<tr>
+    <td>Mail</td>
+    <th colspan="3"><input type="text" name="Mail" value="" placeholder="prueba2@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"</th>
+</tr>
+<tr>
+    <th colspan="4">Comentarios</th>
+</tr>
+<tr>
+    <th colspan="4"><textarea cols="80" rows="10"></textarea></th>
+</tr>
+<tr>
+    <th colspan="5"><input type="submit" value="Enviar"></th>
+<script>
+document.form.nombre.focus();
+</script>
+</tr>
+</table>
+</form>
+  </body>
+</html>
