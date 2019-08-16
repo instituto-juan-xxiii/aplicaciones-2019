@@ -6,7 +6,10 @@
 * [Fileserver (material teórico HTML y CSS)](http://fileserver.pheek.net/aplicaciones/)
 * [Wiki](https://github.com/instituto-juan-xxiii/aplicaciones-2019/wiki)
 
-#### Material de apoyo
+### CSS
+* Ejercicios: https://codepen.io/collection/XgGbGQ
+
+#### Material adicional de apoyo
 ##### CSS
 * Guia CSS de w3schools - https://www.w3schools.com/css/
 * Ejercicios de CSS - https://www.w3schools.com/css/exercise.asp
