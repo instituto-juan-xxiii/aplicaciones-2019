@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+<form action="/action_page.php">
+<table align="center" width="700" border="4" cellpadding="5">
+<tr>
+<th colspan="5" align="center">Evaluación de Aplicaciones</th>
+</tr>
+<th colspan="5" align="center">Formulario de contacto</th>
+</tr>
+<tr>
+  <th rowspan="6"> <img src="https://media.alienwarearena.com/media/comboburst-1.png" alt="Banner" style="width:250px;height:400px;"> </th>
+    <td>Nombre (*)</td>
+    <td><input type="text" name="firstname" value="" placeholder="Nombre entre 5 y 10 caract." pattern="/S{5,10}"></td>
+    <td>Apellido (*)</td>
+    <td><input type="text" name="lastname" value="" placeholder="Nombre entre 5 y 10 caract." pattern="/S{5,10}"></td>
+</tr>
+<tr>
+    <td>DNI (*)</td>
+    <td><input type="text" name="DNI" value="" placeholder="****" pattern="/S{8}"</td>
+    <td>Teléfono</td>
+    <td><input type="text" name="Teléfono" value="" placeholder="(+54) 11 3810-2208" pattern="[\+]\d{2}[\(]\d{2}[\)]\d{4}[\-]\d{4}"</td>
+</tr>
+<tr>
+  <td>E-Mail</td>
+  <th colspan="3"><input type="text" name="E-Mail" value="" placeholder="email@ejemplo.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"</th>
+</tr>
+<tr>
+  <th colspan="4">Comentarios</th>
+</tr>
+<tr>
+  <th colspan="4"><textarea cols="80" rows="10"></textarea></th>
+</tr>
+<tr>
+  <th colspan="5"><input type="submit" value="Enviar"></th>
+<script>
+document.form.nombre.focus();
+</script>
+</tr>
+</table>
+</form>
+</body>
+</html>
