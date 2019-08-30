@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+</head>
+<body>
+  <form>
+<table style="width:50%">
+  <tr>
+    <th colspan="5">Evaluacion SO</th>
+  </tr>
+  <tr>
+    <td colspan="5" style="text-align:center">Formulario de contacto</td>
+  </tr>
+  <tr>
+    <td>Nombre</td>
+    <td style="width:20%"><input type="text" name="Nombre" required></td>
+    <td>Apellido</td>
+    <td style="width:20%"><input type="text" name="Apellido" required></td>
+    <td rowspan="5"><img style="width:120px;height:200px" src="ban.jpg" alt="Banner Tiburon"></td>
+  </tr>
+  <tr>
+    <td>DNI</td>
+    <td><input type="password" name="DNI" placeholder="****" required autocomplete="off"></td>
+    <td>Telefono</td>
+    <td><input type="text" name="Telefono" placeholder="+54(11)1234-5678" pattern="[\+]\d{2}[\(]\d{2}[\)]\d{4}[\-]\d{4}" required></td>
+  </tr>
+  <tr>
+    <td>Email</td>
+    <td colspan="3" style="width:60%;text-align:center"><input type="text" placeholder="email@ejemplo.com" name="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required></td>
+  </tr>
+  <tr>
+    <td colspan="4" style="text-align:center">Comentarios</td>
+  </tr>
+  <tr>
+    <td colspan="4"><textarea rows="8" cols="90"></textarea></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><input type="submit" text="Submit"></td>
+    <td colspan="3"></td>
+  </tr>
+</table>
+</form>
+</body>
+</html>
