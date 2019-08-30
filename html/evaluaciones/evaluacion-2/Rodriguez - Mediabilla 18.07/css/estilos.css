@@ -1,0 +1,30 @@
+body{
+    margin: 3%;
+    background-color: rgb(155, 255, 250);
+}
+input{
+    width: 100%; 
+    height: 100%;
+    padding: 5px;
+    border-radius: 10px
+}
+input:hover{
+    border-width: 3px;
+}
+textarea{
+    border-width: 3px;
+    border-radius: 10px
+}
+u{
+    font-size: 20px;
+}
+textarea{
+    padding: 10px;
+}
+#titulo{
+    font-size: 25px;
+}
+.centrado{
+    text-align: center;
+    align-items: center;
+}
