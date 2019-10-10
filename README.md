@@ -5,6 +5,7 @@
 
 * [Fileserver (material teórico HTML y CSS)](http://fileserver.pheek.net/aplicaciones/)
 * [Wiki](https://github.com/instituto-juan-xxiii/aplicaciones-2019/wiki)
+* [PPTs de clases (PHP, Bootstrap)](https://drive.google.com/open?id=1h5d57BXsdFdqPR84kAxGc9ubiVgepA1f)
 
 ### CSS
 * Ejercicios: https://codepen.io/collection/XgGbGQ
